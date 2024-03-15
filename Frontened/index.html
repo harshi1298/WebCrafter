@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earn your Living (Job Search)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="panel">
+        <div class="logo">
+            <div class="mainlogo"><div class="earn">Earn</div> <div class="living">Your Living...</div></div>
+            <div class="feel">Feel valuable</div>
+        </div>
+        
+        <div class="head">
+            <div class="dropdown"><select name="candidate">
+                <option selected>Candidate</option>
+                <option value="installApp">Install Job Search App</option>
+                <option value="JobsCategory">Jobs By Category</option>
+                <option value="InterviewTips">Interview Tips</option>
+            </select>
+        </div>
+        <div class="dropdown">
+            <select name="Employer" class="dropDown">
+                <option selected>Employer</option>
+                <option value="startHire">Start Hiring</option>
+                <option value="recruitApp">Install Recruiter App</option>
+                <option value="FAQs">FAQs</option>
+            </select>
+        </div>
+            <div class="dropdown">
+                 <select name="Company" class="dropDown">
+                <option selected>Company</option>
+                <option value="About">About Us</option>
+                <option value="career">Careers</option>
+                <option value="contact">Contact Us</option>
+                <option value="policy">Privacy Policy</option>
+                <option value="terms">Terms & Conditions</option>
+            </select>
+        </div>
+    </div>
+    <div class="rightHead">
+        <!-- <div class="findJob">
+            <button class="border" value="findJob"><a href="signUpjob.html"></a>Find a Job</button>
+        </div> -->
+        <div class="signUp" >
+            <button class="border" id="tosignup">Sign Up</button>
+        </div>
+        <div class="login" id="login">
+            <button class="border" id="loginPage">Log in</button>
+        </div>
+        
+    </div>
+</div>
+    </header>
+    <main>
+        <div class="homeImg"></div>
+        <div class="check">
+            <i id="back1" class="fa-solid fa-xmark fa-2x"></i> 
+            <button class="employer" id="employer" onclick="employersign()">As An Employer</button>
+            <button class="employee" id="employee" onclick="employeesign()">As An Employee</button>
+        </div>
+        <div class="popup">
+        <div class="loginPanel">
+            <i id="back2" class="fa-solid fa-xmark fa-2x"></i> 
+            <div class="logoin">
+                <div class="mainlogoin"><div class="earnin">Earn</div> <div class="livingin">Your Living...</div></div>
+            </div>
+                <input type="email" placeholder="  Phone number, username, or email" id="email" >
+                <input type="password" placeholder="  Password" id="password" >
+            
+                <button id="login" onclick="closeit()">Log in</button>
+        <!--     <div class="OR">
+                <hr>
+                OR
+                <hr>
+            </div>
+        <div class="otherlog">
+            <div class="googlelog">
+                Log in With  <i class="fa-brands fa-google"></i><a>oogle</a>
+            </div>
+            <div class="facebooklog">
+                Log in With  <i class="fa-brands fa-facebook"></i><a>acebook</a>
+            </div>
+        </div> -->
+              <!-- <a href="#">Forgot password?</a>
+              Don't have Account?
+              <a href="#">SignUp</a> -->
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="footerPanel1">
+        <div class="general">
+            <p><u>General</u></p>
+            <a>Sign Up</a>
+            <a>Help Center</a>
+            <a>About</a>
+            <a>Careers</a>
+            <a>Developers</a>
+        </div>
+        <div class="qualification">
+            <p><u>Find Jobs By Qualifications</u></p>
+            <a>Technical</a>
+            <a>Graduate</a>
+            <a>12th Pass</a>
+            <a>10th Pass</a>
+            <a>below 10th Pass</a>
+        </div>
+        <div class="jobsByCity">
+            <p><u>Find Jobs By City</u></p>
+            <a>Mumbai</a>
+            <a>Pune</a>
+            <a>Bengaluru</a>
+            <a>Delhi/NCR</a>
+            <a>Surat</a>
+            <a>Ahmedabad</a>
+        </div>
+        <div class="experience">
+            <p><u>Find Jobs By Experience</u></p>
+            <a>Fresher</a>
+            <a>Experienced</a>
+        </div>
+    </div>
+        <div class="gndPanel">
+            © 2024 Earn It Easy Pvt. Ltd.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
